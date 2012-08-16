@@ -1,0 +1,43 @@
+login
+view-source:http://localhost:8070/plex/services/login.php?auth=bWVyc2lhbjpwdDFta3QxbWs=
+
+servers
+view-source:http://localhost:8070/plex/services/servers.php?token=
+
+-------------
+
+sections
+view-source:http://localhost:8070/plex/services/sections.php?server_ip=192.168.1.122&server_port=32400&token=
+
+-------------
+
+movies
+view-source:http://localhost:8070/plex/services/section_contents.php?server_ip=192.168.1.122&server_port=32400&sectionID=1&token=
+
+video metadata
+view-source:http://localhost:8070/plex/services/metadata.php?server_ip=192.168.1.122&server_port=32400&key=/library/metadata/1877&token=
+
+-------------
+
+tv shows
+view-source:http://localhost:8070/plex/services/section_contents.php?server_ip=192.168.1.122&server_port=32400&sectionID=2&token=
+
+seasons list
+view-source:http://localhost:8070/plex/services/metadata.php?server_ip=192.168.1.122&server_port=32400&key=/library/metadata/1465/children&token=
+
+episodes list
+view-source:http://localhost:8070/plex/services/metadata.php?server_ip=192.168.1.122&server_port=32400&key=/library/metadata/1466/children&token=
+
+episode metadata
+view-source:http://localhost:8070/plex/services/metadata.php?server_ip=192.168.1.122&server_port=32400&key=/library/metadata/1467&token=
+
+-------------
+
+music (artists)
+view-source:http://localhost:8070/plex/services/section_contents.php?server_ip=192.168.1.122&server_port=32400&sectionID=3&token=
+
+albums list
+view-source:http://localhost:8070/plex/services/metadata.php?server_ip=192.168.1.122&server_port=32400&key=/library/metadata/2973/children&token=
+
+tracks list
+view-source:http://localhost:8070/plex/services/metadata.php?server_ip=192.168.1.122&server_port=32400&key=/library/metadata/2974/children&token=
